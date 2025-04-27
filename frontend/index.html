@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Analyzer</title>
+</head>
+<body>
+    <h2>Resume and JD Analyzer</h2>
+
+    <textarea id="resume" placeholder="Paste your Resume text here..." rows="10" cols="80"></textarea><br><br>
+    <textarea id="jd" placeholder="Paste Job Description here..." rows="10" cols="80"></textarea><br><br>
+    <input type="text" id="experience" placeholder="Years of Experience (eg: 2 Years)" /><br><br>
+
+    <button onclick="analyze()">Analyze Resume</button>
+    <button onclick="draftEmail()">Generate Email</button>
+
+    <h3>Result:</h3>
+    <div id="result"></div>
+
+    <h3>Email Draft:</h3>
+    <div id="emailResult"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
